@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliador de Cold Calls</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Versão 2 - Consumo de API de Modelo Open Source</h1>
+    <h1>Envie aqui a sua transcrição de cold call em formato PDF.</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" id="pdfFile" accept="application/pdf">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
